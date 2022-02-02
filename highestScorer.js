@@ -7,9 +7,8 @@ var run = [
 ]
 var maxRun = run[1][0];
 for (var i = 1; i < run.length; i++) {
-    var compare = run[i][1]
-    if (maxRun < compare) {
-        maxRun = compare
+    if (maxRun < run[i][1]) {
+        maxRun = run[i][1]
         var targetElement = run[i]
     }
 }

@@ -1,6 +1,4 @@
-function addNumber(number1, number2) {
-    return "Result is " + number1 + number2;
+function add(a, b) {
+    return a + b;
 }
-
-var result = addNumber(5, 4);
-console.log(result)
+console.log(add("adam" + "eve"))
