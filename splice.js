@@ -1,5 +1,7 @@
-//splice changes the input/main array
 var names = ["zubayer", "mahmudul", "jamila", "kamila"]
 names.splice(1, 1, "rahim", "karim")
-//the second number defines how many element you want to remove from the array after adding the new elements, and it starts removing elements just after the newly added elements.
+//the first input refers to the starting index.
+//the second input defines how many element will be removed from the array.
+//the inptut after the second input, will be added at the place of the removed element/elements.
+//splice changes the actual array
 console.log(names)
