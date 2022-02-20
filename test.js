@@ -1,8 +1,7 @@
-const array = [1, 2, 3, 4, 5, 6, 7];
-
-for (let i = 1; i < array.length; i++) {
-    if (i == 5) {
-        continue;
-       }
-    console.log(array[i]);
-   }
+function func() {
+    console.log('i was called')
+    return 0
+}
+let value = func()
+let result = value + ", hi"
+console.log(result)

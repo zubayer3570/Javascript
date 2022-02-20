@@ -1,6 +1,6 @@
 var color = "white";
 switch (color) {
-    case "white":
+    case color = "white":
         console.log("color is white");
         break;
 }

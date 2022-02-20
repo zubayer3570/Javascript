@@ -11,3 +11,4 @@ document.getElementById('dlt-btn').addEventListener('click', function () {
     document.getElementById('posts').removeChild(childNode[childNode.length - 1])
 })
 
+document.getElementById('posts').style.color = 'blue'
