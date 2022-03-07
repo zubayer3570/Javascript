@@ -1,1 +1,3 @@
-confirm("this is confirm")
+document.getElementById('btn').addEventListener('click', function () {
+    alert("this is alert")
+}) 
