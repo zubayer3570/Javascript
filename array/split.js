@@ -1,5 +1,5 @@
 //it splits the string at the points where it find the input letter/word/string
-//then it returns theh splitted pieces as elements of an array
+//then it returns the splitted pieces as elements of an array
 
 let string = 'desh valona bidesh jamu'
 let output = string.split(' ')

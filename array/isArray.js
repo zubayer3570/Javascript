@@ -1,4 +1,4 @@
-//this returns true if the giver variable is a string
+//this returns true if the given variable is a string
 let array = ['hello', 'hunny', 'bunny', 'pani']
 let notArray = 'string'
 console.log(Array.isArray(notArray))

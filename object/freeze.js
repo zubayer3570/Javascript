@@ -1,4 +1,4 @@
-//in freeze you can't change values or delete keys
+//in freeze you can't change values nor delete keys
 const person = {
     name: 'zubayer',
     age: 20,
