@@ -1,6 +1,3 @@
-
-
-
 document.getElementById('slider').style.display = 'none'
 document.getElementById('search-btn').addEventListener('click', function () {
     document.getElementById('search-result').innerHTML = ``
