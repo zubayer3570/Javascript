@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    padding-top: 10px;
+}
+#search-result{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 0px 100px;
+}
+#slider{
+    width: 100%;
+}
+#slider-image{
+    padding-top: 10px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 680px) {
+    #search-result{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0px 20px;
+    }
+}
